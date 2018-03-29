@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    align-items: stretch;
+    min-height: calc(100vh);
+}
+
+#code-editor, code {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    display: block;
+    background: transparent;
+    border: 0;
+    color: white;
+    resize: none;
+}
+
+.preview {
+    margin: 20px;
+}
+
+.debug .preview {
+    border: 1px solid lightgray;
+}
+
+.debug .preview * {
+    border-bottom: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+.preview p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.preview h1,
+.preview h2,
+.preview h3,
+.preview h4,
+.preview h5,
+.preview h6 {
+    margin: 0;
+    padding: 0.67em 0;
+}
+
+.editor {
+    background-color: #312b2e;
+    color: white;
+    padding: 20px;
+}
+
+.editor,
+.preview {
+    flex: 1;
+    min-height: 100%;
+}
+
+.toolbar {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
