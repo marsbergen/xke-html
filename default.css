@@ -41,17 +41,26 @@ strong {
     box-sizing: border-box;
 }
 
-.preview p {
+.debug .preview *:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.debug .preview p {
     margin: 0;
     padding: 1em 0;
 }
 
-.preview h1,
-.preview h2,
-.preview h3,
-.preview h4,
-.preview h5,
-.preview h6 {
+.debug .preview ul {
+    margin: 0;
+    padding: 1em 0 1em 40px ;
+}
+
+.debug .preview h1,
+.debug .preview h2,
+.debug .preview h3,
+.debug .preview h4,
+.debug .preview h5,
+.debug .preview h6 {
     margin: 0;
     padding: 0.67em 0;
 }
