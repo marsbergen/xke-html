@@ -82,3 +82,15 @@ strong {
     bottom: 10px;
     left: 10px;
 }
+
+.taskSuccess {
+    position: absolute;
+    top: 10vh;
+    right: 5vw;
+    width: 40vw;
+    height: 300px;
+    background-image: url('https://i.pinimg.com/originals/67/69/f0/6769f08ac32e95eb576fddc6b737c848.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
