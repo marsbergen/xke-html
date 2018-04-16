@@ -94,3 +94,10 @@ strong {
     background-position: center center;
     background-size: cover;
 }
+
+#validation-status {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    color: white;
+}
